@@ -1,0 +1,15 @@
+@import '../Variables/Variables.scss';
+
+
+.header {
+    background-color: $purple;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 85px; 
+        
+        .header-logo__text {
+            color: $white;
+        }
+}

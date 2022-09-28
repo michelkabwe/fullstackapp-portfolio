@@ -1,0 +1,19 @@
+.header {
+  background-color: #251762;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 50px 0 85px;
+}
+
+.header .header-logo__text {
+  color: #ffff;
+}
+/*# sourceMappingURL=Header.css.map */

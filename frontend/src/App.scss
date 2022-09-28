@@ -1,0 +1,23 @@
+
+@import './Variables/Variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@700&family=Roboto+Slab:wght@700&display=swap');
+
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Avenir,sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto Slab', serif;
+}
+
+.App {
+  min-height: 100vh;
+  background-color:$purple;
+  position: relative;
+}
+
+

@@ -1,0 +1,82 @@
+.main-wrapper {
+  background-image: url("../Assets/bg.jpg");
+  height: 80vh;
+}
+
+.main-wrapper .bg-overlay {
+  background-color: rgba(37, 23, 98, 0.468);
+}
+
+.main-wrapper .main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+.main-wrapper .main-hero__title, .main-wrapper .main-hero {
+  font-size: 3rem;
+  color: #ffff;
+  text-align: center;
+}
+
+.main-wrapper .button-red {
+  background-color: #f06543;
+  border: none;
+  color: #ffff;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: #ffff;
+  border-radius: 30px;
+  width: 254px;
+}
+
+.article-content {
+  padding: 90px;
+  max-width: 450px;
+}
+
+.article-content .article-title {
+  color: #ffff;
+  font-size: 2rem;
+}
+
+.article-content .article-p {
+  color: #ffff;
+  margin-bottom: 44px;
+}
+
+.article-content .button-blue {
+  background-color: #251762;
+  border: none;
+  color: #ffff;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+  width: 254px;
+}
+
+/*Sections*/
+.section {
+  background-color: #f06543;
+  height: 80vh;
+}
+/*# sourceMappingURL=Home.css.map */

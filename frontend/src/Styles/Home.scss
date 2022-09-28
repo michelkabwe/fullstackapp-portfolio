@@ -1,0 +1,88 @@
+
+@import '../Variables/Variables.scss';
+
+.main-wrapper {
+  background-image: url('../Assets/bg.jpg') ;
+   height: 80vh;
+
+   .bg-overlay {
+
+    background-color:rgb(37 23 98 / 77%);
+  
+
+   }
+
+   .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+
+   }
+   
+      .main-hero__title,.main-hero {
+        font-size: 3rem;
+        color:$white;
+        text-align: center;
+      
+      }
+      .button-red {
+        background-color: $orange;
+        border: none;
+        color: $white;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+        margin: 4px 2px;
+        cursor: pointer;
+        color: #ffff;
+        border-radius: 30px;
+        width: 254px;
+      }
+}
+
+.article-content {
+  padding: 90px;
+  max-width: 450px;
+
+      .article-title {
+        color: $white;
+        font-size: 2rem;
+      }
+
+          .article-p {
+            color: $white;
+            margin-bottom: 44px;
+          }
+
+                  .button-blue {
+                    background-color: #251762;
+                    border: none;
+                    color: $white;
+                    padding: 20px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 1rem;
+                    margin: 4px 2px;
+                    cursor: pointer;
+                    border-radius: 30px;
+                    width: 254px;
+                  }
+      
+
+}
+
+
+          .section {
+            background-color: $orange;
+            height: 100vh;
+          }
+
+
+
+/*# sourceMappingURL=App.css.map */
