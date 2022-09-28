@@ -3,22 +3,33 @@
 
 nav {
   font-family: 'Roboto Slab', serif;
+  list-style-type: none;
+
 }
 
+  
+ul, 
 ul a{
     list-style-type: none;
     margin: 0;
     padding: 0;
     color:$white;
     text-decoration: none;
-  }
-
-  ul {
     display: flex;
     justify-content: flex-end;
+    list-style-type: none;
   }
 
-  li {
+
+  li  {
     margin-right: 10px;
     padding: 10px;
   }
+
+
+  /* breakpoiints */
+  @media screen and (max-width: 960px) {
+  nav {
+    display:none;
+  }
+}

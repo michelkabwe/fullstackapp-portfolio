@@ -22,7 +22,7 @@ const Navigation = ({isAuth, setIsAuth}) => {
     return (
         <div>
         <nav>
-            <ul>
+            <ul className="ul-nav">
             <li><NavLink to="/">Home</NavLink></li>
             <li><NavLink to="/About">About</NavLink></li>
             <li><NavLink to="/Contact">Contact</NavLink></li>

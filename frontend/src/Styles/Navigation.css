@@ -1,26 +1,34 @@
+/*Media Queries */
 nav {
   font-family: 'Roboto Slab', serif;
+  list-style-type: none;
 }
 
+ul,
 ul a {
   list-style-type: none;
   margin: 0;
   padding: 0;
   color: #ffff;
   text-decoration: none;
-}
-
-ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  list-style-type: none;
 }
 
 li {
   margin-right: 10px;
   padding: 10px;
+}
+
+/* breakpoiints */
+@media screen and (max-width: 960px) {
+  nav {
+    display: none;
+  }
 }
 /*# sourceMappingURL=Navigation.css.map */

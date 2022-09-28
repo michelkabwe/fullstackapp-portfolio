@@ -1,9 +1,10 @@
+/*Media Queries */
 .footer {
   background-color: #ffff;
   background-color: #ffff;
   width: 100%;
-  position: absolute;
-  bottom: -381px;
+  height: 100%;
+  position: relative;
 }
 
 .footer a {
@@ -45,6 +46,7 @@
 
 .section-left a {
   color: #251762;
+  width: 50%;
 }
 
 .section-right {
@@ -98,5 +100,57 @@
   background: #251762;
   height: 100px;
   color: #ffff;
+}
+
+/* breakpoiints */
+@media screen and (max-width: 960px) {
+  .footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ul-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .section-left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 248px;
+    width: 100%;
+    font-size: 2em;
+  }
+  .section-right {
+    height: 248px;
+    width: 100%;
+  }
+  .info {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 960px) and (max-width: 746px) {
+  .ul-footer {
+    font-size: calc(10vh - 30px);
+  }
 }
 /*# sourceMappingURL=Footer.css.map */
