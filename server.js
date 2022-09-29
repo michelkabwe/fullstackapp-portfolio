@@ -8,7 +8,8 @@ const users = require('./routes/users.js')
 const PORT = process.env.PORT||8707
 
 //dirname talar om absoluta sökmappen 
-const buildFolder = path.join(__dirname, './public')
+const buildFolder = path.join(__dirname, './frontend/build')
+//./public'
 
 //build = produktion... 
 
