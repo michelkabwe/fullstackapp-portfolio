@@ -1,0 +1,84 @@
+
+@import '../Variables/Variables.scss';
+
+
+nav {
+  font-family: 'Roboto Slab', serif;
+
+}
+
+
+  .mobil-nav {
+      display: none;
+    
+  }
+  
+ul a{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color:$white;
+    text-decoration: none;
+  }
+
+  ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  li {
+    margin-right: 10px;
+    padding: 10px;
+    list-style-type: none;
+
+  }
+
+  .mobile-nav__container {
+    width: 100%;
+
+  }
+
+  .mobile-menu {
+      height: 500px;
+      background-color: red;
+  }
+
+
+
+  /* break points */
+  @media only screen and (max-width:672px){
+    nav {
+      display: none;
+        
+    }
+
+    .nav-container {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .mobil-nav {
+      display: block;
+      font-size: 23px;
+      color: $white;
+      height: 200px;    
+  }
+    .mobil-nav__open {
+      justify-content: flex-end;
+      margin-right: 15px ;
+      margin-top: 15px;
+      font-size: 23px;
+      color: $white;
+      height: 200px;
+    
+  }
+
+
+}
+
+
+
+
+
+
+  
+

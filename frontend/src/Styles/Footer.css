@@ -1,0 +1,139 @@
+.footer {
+  background-color: #ffff;
+  background-color: #ffff;
+  width: 100%;
+  position: absolute;
+  bottom: -381px;
+}
+
+.footer a {
+  color: red;
+}
+
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+.ul-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.section-left {
+  background: #E8E9EB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 50%;
+  font-family: 'Roboto Slab', serif;
+  font-size: 2rem;
+}
+
+.section-left a {
+  color: #251762;
+}
+
+.section-right {
+  background: #ffff;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-right .socialMediaLogoWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  min-width: 300px;
+}
+
+.section-right .socialMediaLogoWrapper img {
+  width: 50px;
+  height: 50px;
+}
+
+.section-right a {
+  color: #251762;
+}
+
+.lkLogo, .fbLogo, .igLogo, .ttLogo {
+  height: 3vw;
+  width: 3vw;
+}
+
+.bottom-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #251762;
+  height: 100px;
+  color: #ffff;
+}
+
+@media screen and (max-width: 672px) {
+  .footer {
+    width: 100%;
+  }
+  .footer-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section-left, .section-right {
+    width: 100%;
+    height: 30vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bottom-section {
+    padding: 3rem;
+  }
+  .ul-footer {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,46 @@
+@import '../Variables/Variables.scss';
+
+
+.header {
+    background-color: $purple;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 85px; 
+        
+        .header-logo__text {
+            color: $white;
+        }
+}
+
+
+/*breakpoints*/
+
+@media screen and (max-width:672px){
+    .header-logo__text {
+        font-size:25px;
+        
+    
+    }
+
+    .btn-container {
+        width: 100%;
+        display: block;
+        text-align: right;
+    }
+
+    .dropdown__menu {
+        background: $purple;
+        position: absolute;
+        left: 0px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        height: 250px;
+    }
+
+
+
+}
+
