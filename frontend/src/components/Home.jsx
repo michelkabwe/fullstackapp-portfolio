@@ -30,7 +30,7 @@ const Home = () => {
               <div className="bg-overlay">
               <div className="main-content">
             <div className="main-hero">
-              <h1 className="main-hero__title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+              <h1 className="main-hero__title">Fullstack website dedicated to my projects as Frontend Developer</h1>
               <button onClick={navigateToAbout}className="button-red">Discover Lorem</button>
             </div>
             </div>

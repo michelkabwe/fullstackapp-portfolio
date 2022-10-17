@@ -31,7 +31,7 @@ const Header = ({isAuth, setIsAuth}) => {
     return (
         <div className="header">
             <div className="header-logo"><h1 className="header-logo__text">
-             COMPANY TEMPLATE</h1></div>
+             Michel Kabwe</h1></div>
             <Navigation isAuth={isAuth} setIsAuth={setIsAuth} />
 
     {!isOpen ? <FiAlignJustify className="mobil-nav" onClick={()=>setIsOpen(true)} /> : (
