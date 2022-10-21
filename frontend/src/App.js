@@ -38,6 +38,7 @@ const App = () => {
           <Route path="/Login" element={<Login setIsAuth={setIsAuth}/>} /> 
           <Route path="/SignUp" element={<SignUp />} /> 
         </Routes> 
+        <Home />
         <Footer/>  
         </ParallaxProvider> 
     </div>
