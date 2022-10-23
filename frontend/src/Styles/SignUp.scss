@@ -1,5 +1,5 @@
 .SignUP-container {
-  padding: 4rem;
+  //padding: 4rem;
   background: #FFFFFF;
 }
 
@@ -15,9 +15,6 @@
   background: transparent;
  
 }
-
-
-
 
 input[type="text"],
 input[type="password"] {
@@ -48,6 +45,7 @@ input[type="submit"]:hover {
 .button-container {
   display: flex;
   justify-content: center;
+  padding-bottom: 6rem;
 }
 
 .login-form {
@@ -78,7 +76,25 @@ input[type="submit"]:hover {
 }
 
 
-
 .SignUp-title,.sg-title {
   text-align: center;
+}
+
+
+.close-button {
+  font-size: 2rem;
+  background: transparent;
+  text-align: right;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  border: none;
+  cursor: pointer;
+
+}
+
+.sign-up-title {
+  cursor: pointer;
+  color:blue;
+  
+
 }

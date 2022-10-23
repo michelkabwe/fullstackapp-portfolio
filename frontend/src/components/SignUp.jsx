@@ -1,4 +1,7 @@
 import React,{useState} from 'react'
+import { AiFillCloseCircle } from "react-icons/ai";
+
+
 import '../Styles/SignUp.css'
 
 const SignUp = ({ openModal, visible}) => {
@@ -8,7 +11,7 @@ const SignUp = ({ openModal, visible}) => {
     {visible ?
     <div>
             <div className="close-button">
-            <button onClick={openModal}>❌</button>
+            <button onClick={openModal} className="close-button"><AiFillCloseCircle /></button>
             </div>
                     <h1 className="SignUp-title">Sign Up</h1>
                             <form>

@@ -80,6 +80,15 @@ input[type="submit"]:hover {
   margin: 87px;
 }
 
+.sg-title {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
 
+.signUp-title {
+  color: blue;
+  cursor: pointer;
+}
 
 

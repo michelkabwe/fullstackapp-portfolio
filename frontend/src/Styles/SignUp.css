@@ -1,5 +1,4 @@
 .SignUP-container {
-  padding: 4rem;
   background: #FFFFFF;
 }
 
@@ -56,6 +55,7 @@ input[type="submit"]:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-bottom: 6rem;
 }
 
 .login-form {
@@ -95,5 +95,20 @@ input[type="submit"]:hover {
 
 .SignUp-title, .sg-title {
   text-align: center;
+}
+
+.close-button {
+  font-size: 2rem;
+  background: transparent;
+  text-align: right;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.sign-up-title {
+  cursor: pointer;
+  color: blue;
 }
 /*# sourceMappingURL=SignUP.css.map */

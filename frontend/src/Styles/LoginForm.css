@@ -88,4 +88,19 @@ input[type="submit"]:hover {
   gap: 8px;
   margin: 87px;
 }
+
+.sg-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 0.5rem;
+}
+
+.signUp-title {
+  color: blue;
+  cursor: pointer;
+}
 /*# sourceMappingURL=LoginForm.css.map */

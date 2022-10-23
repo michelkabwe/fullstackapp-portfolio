@@ -34,7 +34,7 @@ const LoginForm = ({ setIsAuth }) => {
 
     return (
         <div>
-          <div className="sg-title">
+          <div className="sg-title-wrapper">
             <h1 className="login-title">Log in</h1>
             <div>
             <div className="google-login">
@@ -61,12 +61,15 @@ const LoginForm = ({ setIsAuth }) => {
               </div>
             </form>
            
-              <div className="sg-title"><p>Dont have an account?</p></div> 
+              <div className="sg-title"><p>Dont have an account?</p>
+              <p onClick={openModal} className="signUp-title">Sign up here!</p>
+              
+              </div> 
              
               <div className="signUp-field"><SignUp  visible={visible} openModal={openModal}/> </div>
                       
-              
- <div className="SignUp-Link"><button onClick={openModal}>Sign up here!</button></div>
+                          
+       
      
 
      
