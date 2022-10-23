@@ -1,12 +1,16 @@
 import React,{useState} from 'react'
 import '../Styles/SignUp.css'
 
-const SignUp = () => {
+const SignUp = ({ openModal, visible}) => {
     return (
         <div className="SignUP-container">
-                <div>
+
+    {visible ?
+    <div>
+            <div className="close-button">
+            <button onClick={openModal}>❌</button>
+            </div>
                     <h1 className="SignUp-title">Sign Up</h1>
-                            <div>
                             <form>
                             <div className="input-container">
                                 <label>Username </label>
@@ -22,9 +26,11 @@ const SignUp = () => {
                                 <input type="submit" />
                             </div>
                             </form>
-                        </div>
-                    </div>
-             </div>
+
+                            </div>
+            : null }
+    </div>
+                  
     )
 }
 

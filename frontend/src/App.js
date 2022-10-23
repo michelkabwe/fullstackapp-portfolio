@@ -29,7 +29,6 @@ const App = () => {
     <BrowserRouter>
     <div className="App">
     <ParallaxProvider>
-      
          <Header isAuth={isAuth} setIsAuth={setIsAuth}/> 
          <Routes>
           <Route path="/" element={<Home />} />
@@ -38,7 +37,7 @@ const App = () => {
           <Route path="/Login" element={<Login setIsAuth={setIsAuth}/>} /> 
           <Route path="/SignUp" element={<SignUp />} /> 
         </Routes> 
-        <Home />
+  
         <Footer/>  
         </ParallaxProvider> 
     </div>

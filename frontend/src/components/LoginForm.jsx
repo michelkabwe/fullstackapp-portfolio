@@ -1,14 +1,18 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { NavLink } from 'react-router-dom'
 import '../Styles/LoginForm.css'
 import { auth, provider } from '../firebase-config.js'
 import { signInWithPopup } from 'firebase/auth'
 import { useNavigate } from 'react-router-dom'
+import SignUp from './SignUp'
 
 
 //provider specify that we log in with google
 //.then grabs the (result) that contains all the finormation about the user who is logged in..
 const LoginForm = ({ setIsAuth }) => {
+
+  const [visible, setVisible] = useState(false)
+  //const [close, setIsClose] = useState(true)
 
   const navigate = useNavigate();
 
@@ -19,6 +23,14 @@ const LoginForm = ({ setIsAuth }) => {
       navigate('/')
     })
   }
+
+  const openModal = () => {
+    setVisible(prev => !prev)
+
+
+  }
+
+
 
     return (
         <div>
@@ -48,10 +60,16 @@ const LoginForm = ({ setIsAuth }) => {
                 <input type="submit" />
               </div>
             </form>
-            <div className="signUp-Link">
+           
               <div className="sg-title"><p>Dont have an account?</p></div> 
-              <div className="sg-title"><NavLink to={"/SignUp"}>Sign up here!</NavLink></div>
-            </div>
+             
+              <div className="signUp-field"><SignUp  visible={visible} openModal={openModal}/> </div>
+                      
+              
+ <div className="SignUp-Link"><button onClick={openModal}>Sign up here!</button></div>
+     
+
+     
           </div>
             
         </div>

@@ -1,3 +1,22 @@
+.SignUP-container {
+  padding: 4rem;
+  background: #FFFFFF;
+}
+
+.signUp-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  backdrop-filter: blur(6px);
+  background: transparent;
+ 
+}
+
+
 
 
 input[type="text"],
@@ -11,7 +30,6 @@ input[type="submit"] {
     background-color: #ee4038;
     border: none;
     color: white;
-    padding: 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -59,6 +77,8 @@ input[type="submit"]:hover {
   margin: 87px;
 }
 
-.sg-title {
-    padding: 0.5rem;
+
+
+.SignUp-title,.sg-title {
+  text-align: center;
 }
